@@ -1,7 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import { FocusScreen } from './04-useRef/FocusScreen'
+import { MemoHook } from './06-memos/MemoHook'
+//import { FocusScreen } from './04-useRef/FocusScreen'
+//import { Memorize } from './06-memos/Memorize'
 //import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks'
 //import { HooksApp } from './HooksApp.jsx'
 // import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook'
@@ -11,7 +13,7 @@ import { FocusScreen } from './04-useRef/FocusScreen'
 
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
-    <FocusScreen />
+    <MemoHook />
   // </StrictMode>
 )
 
